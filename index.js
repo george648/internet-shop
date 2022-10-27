@@ -14,7 +14,7 @@ const hbs = exphbs.create({
 })
 
 async function start() {
-  const urlDB = `mongodb+srv://george648:<C9KjsJ0bjsxGJQEf>@cluster0.g7qsszt.mongodb.net/?retryWrites=true&w=majority`
+  const urlDB = `mongodb+srv://george648:C9KjsJ0bjsxGJQEf@cluster0.g7qsszt.mongodb.net/shop`
   const PORT = process.env.PORT || 3000
 
   try {
